@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Main Clapper/Screen Rounded Plate -->
+    <path
+        android:pathData="M33,35h42c4.4,0 8,3.6 8,8v24c0,4.4 -3.6,8 -8,8h-42c-4.4,0 -8,-3.6 -8,-8v-24c0,-4.4 3.6,-8 8,-8z"
+        android:fillColor="#FFFFFFFF" />
+
+    <!-- Top film reel strip accent -->
+    <path
+        android:pathData="M25,43h58v-4c0,-2.2 -1.8,-4 -4,-4h-50c-2.2,0 -4,1.8 -4,4v4z"
+        android:fillColor="#E0E7FF" />
+
+    <!-- Film notches on top bar -->
+    <path
+        android:pathData="M30,37h4v4h-4z M40,37h4v4h-4z M50,37h4v4h-4z M60,37h4v4h-4z M70,37h4v4h-4z"
+        android:fillColor="#4F46E5" />
+
+    <!-- Play button triangle centered in plate -->
+    <path
+        android:pathData="M48,49v16l13,-8z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="48"
+                android:startY="49"
+                android:endX="61"
+                android:endY="65"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#4F46E5" />
+                <item android:offset="1.0" android:color="#7C3AED" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- AI Magic Sparkle 4-point star on top right -->
+    <path
+        android:pathData="M78,28c0,4.4 3.6,8 8,8c-4.4,0 -8,3.6 -8,8c0,-4.4 -3.6,-8 -8,-8c4.4,0 8,-3.6 8,-8z"
+        android:fillColor="#FBBF24" />
+
+    <!-- Smaller AI sparkle star on bottom left -->
+    <path
+        android:pathData="M27,67c0,2.2 1.8,4 4,4c-2.2,0 -4,1.8 -4,4c0,-2.2 -1.8,-4 -4,-4c2.2,0 4,-1.8 4,-4z"
+        android:fillColor="#38BDF8" />
+
+</vector>
